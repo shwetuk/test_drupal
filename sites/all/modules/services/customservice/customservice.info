@@ -1,0 +1,8 @@
+name = Custom Service Module
+description = Sample Custom Service implementation
+package = Custom Service example
+
+core = 7.x
+
+files[] = customservice.inc
+files[] = customservice.module

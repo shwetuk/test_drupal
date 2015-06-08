@@ -1,0 +1,7 @@
+<?php
+// customservice.install
+/**
+* Implementation of hook_schema().
+*/
+
+?>

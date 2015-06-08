@@ -1,0 +1,37 @@
+<?php
+/**
+ * @file
+ * Install, uninstall and update the User Services module.
+ */
+
+
+
+/**
+ * Implements hook_install().
+ */
+function userservices_install() {
+ //$ret = array();
+  //Set our security update to true since it wont need to be displayed
+  //on the status report page
+  //variable_set('services_security_update_1', TRUE);
+}
+/**
+ * Implements hook_uninstall().
+ */
+function userservices_uninstall() {
+  //$ret = array();
+
+  // Drop legacy tables
+  /*$legacy_tables = array('services_keys', 'services_timestamp_nonce');
+  foreach ($legacy_tables as $table) {
+    if (db_table_exists($table)) {
+      db_drop_table($ret, $table);
+    }
+  }
+
+  variable_del('services_use_key');
+  variable_del('services_use_sessid');
+  variable_del('services_debug');
+  variable_del('services_auth_module');
+  */
+}
